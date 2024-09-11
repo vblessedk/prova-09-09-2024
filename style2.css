@@ -1,0 +1,60 @@
+/* usado para informar que existem itens que irão recair sobre todo o HTML */
+*{
+    margin: 0; /* zerando as margen (button, right, top etc)*/
+
+    padding: 0; /* zerando o preenchimento*/
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* habilitando buma fonte para toda a pagina*/
+
+    list-style: none; /* removendo todos os estilos de listas*/
+}
+
+header{  /*chamamos nosso cabeçalho para estilização (header)*/
+    background-color: #070001; /* habilitando uma cor de fundo*/
+    padding: 30px; /* habilitando um preenchimento de 20 pixels no header*/
+    display: flex; /* tornando os itens flexiveis (lado a lado)*/
+    justify-content: space-around; /* justificando conforme a minha vontade*/
+    align-items: center; /* deixando habilitado ao centro*/
+}
+
+header img{ /* chamando minha IMG para estilização*/
+    width: 110px; /*largura da imagem */
+    height: auto;/*altura da imagem */
+}
+
+header nav ul { /* chamando a lista não ordenada para estilização*/
+    list-style: none; /* removendo todos os estilos de lista*/
+    display: flex; /* tornando os itens flexiveis (lado a lado)*/
+}
+
+header nav ul li { /* chamamos nossa Lista (LI) para estilização*/
+
+    margin-right: 10px; /* margen de 10 pixels para esoaçamento */
+}
+
+header nav ul li a { /* aqui chamamos nossa âncora (A) para estilização*/
+    text-decoration: none; /* tirando o sublinhado das ancôras */
+    color: #e6c746; /*colocando uma cor para as ancôras*/
+}
+
+.sessão-01{
+    padding: 150px;
+    background-color: #000000;
+}
+
+
+
+/*.div-pai{
+    display: flex;
+    justify-content: center;
+}
+
+.div-pai .div-iframe{
+    border: 2px solid white;
+    width: 200px;
+    height: 280px;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: 00.80s ease;
+}*/
