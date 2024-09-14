@@ -14,82 +14,82 @@
 }
 
 header {
-    background-color: #2b2a2a;
-    padding: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    background-color: #2b2a2a; /* cor de fundo*/
+    padding: 30px; /* preenchimento de tela*/
+    display: flex; /* tornando os itens (caixas) flexiveis*/
+    justify-content: space-evenly; /*justificando meu conteudo*/
+    align-items: center; /*alinhando ao centro os objetos*/
 }
 
 header img {
-    width: 110px;
-    height: auto;
+    width: 110px; /* largura da imagem*/
+    height: auto; /* altura da imagem*/
 }
 
 header nav ul {
-    list-style: none;
-    display: flex;
+    list-style: none; /* removendo estilos de listas*/
+    display: flex; /* tornando os itens (caixas) flexiveis*/
 }
 
 header nav ul li {
-    margin-right: 10px;
+    margin-right: 10px; /* margem para direita*/
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: #e6c746;
+    text-decoration: none; /* retirando os hiperlinks */
+    color: #e6c746; /* cor das letras*/
 }
 
 .sessão-001{
-    background-color: #000000;
-    padding: 130px;
-    display: flex;
+    background-color: #000000; /* cor de fundo */
+    padding: 130px;  /* preenchimento de tela */
+    display: flex; /* tornando os itens (caixas) flexiveis*/
 }
 
 .história h1 {
-    color: #e6c746;
-    margin: 45px;
-    font-size: 25px;
+    color: #e6c746; /* cor do texto*/
+    margin: 45px; /* margem de espaçamento */
+    font-size: 25px; /* tamanho das letras ===*/
 }
 
 .história p{
-    color: #ffffff;
-    margin: 30px;
-    font-size: 25px;
+    color: #ffffff; /* cor do texto*/
+    margin: 30px; /* margem de espaçamento */
+    font-size: 25px; /* tamanho das letras*/
 }
 
-.rodape{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 25px;
-    background-color: #000000;
+.rodape{ 
+    display: flex; /* tornando os itens (caixas) flexiveis*/
+    justify-content: space-evenly; /* justificando meu conteúdo */
+    align-items: center; /* alinhando meus objetos*/
+    padding: 25px; /* preenchimento de fundo */
+    background-color: #000000; /* cor de fundo*/
 }
 
 .div-final img{
-    width: 130px ;
+    width: 130px ; /* largura da imagem */
 }
 
 .div-icons h2{
-    color: #e6c746;
+    color: #e6c746; /* cor dos icones*/
 }
 
 .div-icons i{
-    padding:7px ;
-    font-size:35px ;
+    padding:7px ; /* preenchimento dos icones*/
+    font-size:35px ; /* tamanho dos icones*/
 }
 
-.div-icons:hover{
-    transition: 00.50s ease;
-    transform: scale(1.3);
-    color: #ffffff;
+.div-icons i:hover{
+    transition: 00.50s ease; /* transição de efeitos*/
+    transform: scale(1.3); /* transformação de efeitos */
+    color: #ffffff; /* cor de efeito*/
 }
 
 .div-icons a{
-    text-decoration: none;
-    color: #ffffff;
+    text-decoration: none; /* retirando os hiperlinks */
+    color: #ffffff; /* cor dos icones*/
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* esqueci */
 }

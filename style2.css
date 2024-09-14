@@ -60,38 +60,77 @@ header nav ul li a { /* aqui chamamos nossa âncora (A) para estilização*/
     font-size: 20px; /* peso da letra*/
 }
 
+
+.sessão-02 {
+    padding: 150px; /* preenchiento da tela*/
+    background-color: #000000; /* cor do fundo*/
+}
+
+
+.sessão-02 h2{
+    font-size: 30px; /* tamanho da letra*/
+    font-weight: 15px; /* peso da letra*/
+    text-align: center; /* centro dos objetos*/
+    color: #e6c746; /* cor das letras*/
+    margin-bottom: 15px; /* respiro*/
+}
+
+.sessão-02 tr{
+    background-color: #000000; /* cor da tabela*/
+    color:#e6c746; /* cor das letras*/
+    
+    
+}
+
+table th{
+    padding: 8px; /* preenchimento das bordas*/
+}
+
+table td{
+    font-size: 25px; /*tamanho das letras */
+    font-weight: 25px; /* peso das letras*/
+    text-align: center; /*centralizando os objetos */
+    margin-bottom: 15px; /* respiro */
+   
+
+}
+
+
+
+
+
 .rodape{
     display: flex; /* tornando o item flexivel*/
-    justify-content: space-evenly; /**/
-    align-items: center;  
-    padding: 25px;
-    background-color: #000000;
+    justify-content: space-evenly; /* justificando o rodape do meu gosto*/
+    align-items: center;  /*centralizando os itens*/
+    padding: 25px; /*preenchimento da tela */
+    background-color: #000000; /* cor de fundo*/
 }
 
 .div-final img{
-    width: 130px;
+    width: 130px; /* tamanho da imagem*/
 }
 
-.div-icons h2{
-    color: #e6c746;
+.div-icons h2{  
+    color: #e6c746; /* cor do título dos icones*/
 }
 
 .div-icons i{
-  padding: 7px;
-  font-size: 35px;
+  padding: 7px; /* preenchimento da tela */
+  font-size: 35px; /* tamanho da letra*/
 }
 
-.div-icons:hover{
-    transition: 00.50s ease;
-    transform: scale(1.3);
-    color: #ffffff;
+.div-icons i:hover{
+    transition: 00.50s ease;  /*transição de efeito*/
+    transform: scale(1.3); /* transformação de efeito*/
+    color: #ffffff; /* cor do efeito*/
 }
 
 .div-icons a{
-    text-decoration: none;
-    color: #ffffff;
+    text-decoration: none; /*retirando os hiperlinks dos icones*/
+    color: #ffffff; /*cor do icone*/
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*esqueci*/
 }

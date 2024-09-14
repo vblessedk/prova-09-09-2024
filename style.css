@@ -131,7 +131,7 @@ padding: 250px; /* preenchimento da imagem*/
     font-size: 35px; /* esqueci*/
 }
 
-.div-icons:hover{
+.div-icons i:hover{
     transition: 00.50s ease; /* transição dos icones */
     transform: scale(1.3);  /* transformação dos icones*/
     color:#ffffff; /* cor da transição dos icones*/
